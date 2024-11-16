@@ -1,0 +1,41 @@
+.SginUp{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.SginUp .reg-wrapper{
+    width: 100%;
+    height: 100%;
+    padding: 0px 13px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(180deg, #121e3a 0%, #0e1525 100%);
+}
+.SginUp .reg{
+    width: 100%;
+    height: 508px;
+    padding: 0px 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.SginUp .reg .action{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.SginUp .reg .action button{
+    width: 100%;
+    height: 40px;
+}
+.SginUp .reg .action p{
+    font-size: 13px;
+}
+.SginUp .reg .action p span{
+    text-decoration: underline;
+    color: #f3f3f3;
+}

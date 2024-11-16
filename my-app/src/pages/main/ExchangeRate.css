@@ -1,0 +1,44 @@
+.main-wrapper .exchangeRate{
+    width: 100%;
+    height: 87px;
+    padding: 0px 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+.main-wrapper .exchangeRate ul{
+    width: 108px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 7px 0px;
+}
+.main-wrapper .exchangeRate ul li{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+}
+.main-wrapper .exchangeRate ul .BTC-USDT{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-wrapper .exchangeRate ul li p{
+    font-weight: 400;
+    font-size: 10px;
+}
+.main-wrapper .exchangeRate ul li h4{
+    font-size: 12px;
+}
+.main-wrapper .exchangeRate ul li h3{
+    font-weight: 600;
+    font-size: 16px;
+}
+.main-wrapper .exchangeRate ul li h5{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    color: #01bc8d;
+}

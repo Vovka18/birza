@@ -1,0 +1,90 @@
+
+.main-wrapper .schedule-wrapper{
+    width: 100%;
+    margin-top: 24px;
+}
+.main-wrapper .schedule-wrapper .schedule-menu{
+    width: 100%;
+    height: 32px;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+}
+.main-wrapper .schedule-wrapper .schedule-menu span{
+    height: 27px;
+    margin-right: 61px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 13px;
+    color: #8C8C8C;
+    overflow: hidden;
+}
+.main-wrapper .schedule-wrapper .schedule-menu span .line{
+    width: 50%;
+    height: 2px;
+    background: #01BC8D;
+    transform: translateY(100%);
+    transition: .2s;
+}
+.main-wrapper .schedule-wrapper .schedule-menu span{
+    height: 27px;
+    margin-right: 61px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 13px;
+    color: #8C8C8C;
+    overflow: hidden;
+    transition: .2s;
+}
+
+.main-wrapper .schedule-wrapper .schedule-menu span .line-activ{
+    background: #01BC8D;
+    transform: translateX(0%);
+}
+.main-wrapper .schedule-wrapper .schedule-menu span .span-active{
+    color: #f3f3f3;
+}
+
+.main-wrapper .schedule-wrapper .wrapper-menu .schedule{
+    width: 100%;
+    height: 354px;
+    margin-top: 14px;
+}
+.main-wrapper .schedule-wrapper .schedule-time{
+    width: 100%;
+    height: 18px;
+    display: flex;
+    padding-left: 21px;
+    margin-top: 14px;
+}
+.main-wrapper .schedule-wrapper .schedule-time p{
+    font-weight: 500;
+    font-size: 13px;
+    margin-right: 13px;
+}
+
+.main-wrapper .schedule-wrapper .wrapper-menu{
+    width: 200%;
+    height: 318px;
+    margin-top: 18px;
+    display: flex;
+    transform: translateX(0%);
+    transition: .2s;
+}
+.main-wrapper .schedule-wrapper .wrapper-menu .schedule-block{
+    width: 50%;
+    height: 100%;
+    background: red;
+}
+.main-wrapper .schedule-wrapper .wrapper-menu .OrderGlass{
+    width: 50%;
+    height: 100%;
+    background: green;
+}
+.main-wrapper .schedule-wrapper .wrapper-menu-active{
+    transform: translateX(-50%);
+}

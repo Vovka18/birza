@@ -1,0 +1,226 @@
+.BuyOrder{
+    width: 100%;
+    height: 90vh;
+    background: linear-gradient(180deg, #121E3A 0%, #0E1525 100%);
+    z-index: 3;
+    border-radius: 20px 20px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    transform: translateY(100%);
+    transition: .4s;
+}
+
+.BuyOrderActive{
+    transform: translateY(0%);
+}
+.BuyOrder .headline{
+    width: 100%;
+    height: 26px;
+    margin-top: 13px;
+    padding: 0px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.BuyOrder .buy-menu{
+    width: 100%;
+    height: 27px;
+    border-bottom: 1px solid rgba(243, 243, 243, 0.08);
+    padding-left: 20px;
+    margin-top: 24px;
+    display: flex;
+}
+
+.BuyOrder .buy-menu span{
+    height: 27px;
+    margin-right: 61px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 13px;
+    color: #8C8C8C;
+    overflow: hidden;
+}
+.BuyOrder .buy-menu span .line{
+    width: 50%;
+    height: 2px;
+    background: #01BC8D;
+    transform: translateY(100%);
+    transition: .2s;
+}
+.BuyOrder .buy-menu span{
+    height: 27px;
+    margin-right: 61px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 13px;
+    color: #8C8C8C;
+    overflow: hidden;
+    transition: .2s;
+}
+
+.BuyOrder .buy-menu span .line-activ{
+    background: #01BC8D;
+    transform: translateX(0%);
+}
+.BuyOrder .buy-menu span .span-active{
+    color: #f3f3f3;
+}
+
+
+.BuyOrder .orderWrapper{
+    width: 200%;
+    height: 100%;
+    transition: .4s;
+    transform: translateX(0%);
+    display: flex;
+}
+.BuyOrder .orderWrapperFutures{
+    transform: translateX(-50%);
+}
+.BuyOrder .Spot, .BuyOrder .Futures{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.BuyOrder .slideButtons-wrapper{
+    width: 100%;
+    height: 36px;
+    margin-top: 16px;
+    padding: 0px 16px;
+}
+.BuyOrder .slideButtons{
+    width: 100%;
+    height: 36px;
+    background: #0e1626;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 13px;
+    color: rgba(243, 243, 243, 0.4);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+.BuyOrder .slideButtons p{
+    transition: .2s;
+    z-index: 2;
+}
+.BuyOrder .slideButtons .active{
+    color: #f3f3f3;
+    font-weight: 700;
+    font-size: 13px;
+    z-index: 2;
+}
+.BuyOrder .slideButtons .dynamicSldier{
+    width: 50%;
+    height: 100%;
+    background: #01BC8D;
+    border-radius: 20px;
+    position: absolute;
+    z-index: 1;
+    left: 0px;
+    transition: .3s;
+}
+.BuyOrder .slideButtons .activeSldier{
+    left: 50%;
+}
+
+.BuyOrder .limitMarket{
+    width: 100%;
+    height: 23px;
+    margin-top: 26px;
+    padding-left: 17px;
+    display: flex;
+    border-bottom: 1px solid rgba(243, 243, 243, 0.08);
+    transition: .2s;
+}
+.BuyOrder .limitMarket p{
+    transition: .2s;
+}
+.BuyOrder .limitMarket p:nth-child(2){
+    margin-left: 32px;
+}
+.BuyOrder .limitMarket .active{
+    font-weight: 700;
+    color: #f3f3f3;
+}
+
+.BuyOrder .available{
+    width: 100%;
+    height: 17px;
+    padding: 0px 16px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+.BuyOrder .available h4{
+    font-weight: 500;
+    font-size: 13px;
+    color: rgba(243, 243, 243, 0.4);
+}
+.BuyOrder .available .usdt{
+    font-weight: 500;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+}
+.BuyOrder .available .usdt svg{
+    margin-left: 4px;
+}
+.BuyOrder .inputs .buttons{
+    width: 100%;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
+}
+.BuyOrder .inputs .buttons .countPercent{
+    width: 20%;
+    height: 24px;
+    border-radius: 10px;
+    background: #0e1626;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 13px;
+    color: rgba(243, 243, 243, 0.4);
+    transition: .2s;
+}
+.BuyOrder .inputs .buttons .precentActive {
+    background: #01BC8D;    
+    color: #f3f3f3;
+    font-weight: 700;
+}
+.BuyOrder .inputs{
+    width: 100%;
+    height: 192px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px 16px;
+    margin-top: 21px;
+}
+.BuyOrder .orderWrapper .Futures .futuresInputs{
+    height: 100px;
+    margin-top: 32px;
+}
+.BuyOrder .newBtn{
+    width: 96%;
+    height: 40px;
+    margin-top: 46px;
+}
+
+

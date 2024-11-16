@@ -1,0 +1,157 @@
+.OrderList{
+    width: 100%;
+    height: 95px;
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    /* background: orangered; */
+}
+
+.OrderList ul{
+    height: 100%;
+    font-size: 13px; 
+    color: rgba(243, 243, 243, 0.4);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* li 1 */
+.OrderList .text{
+    min-width: 120px;
+}
+.OrderList .text li{
+    display: flex;
+}
+.OrderList .text li .wrapper{
+    width: 13px;
+}
+.OrderList .text li:nth-child(1){
+    color: #f3f3f3;
+}
+
+.OrderList .line, .OrderListActive .line{
+    width: 2px;
+    height: 18px;
+    border-radius: 2px;
+    margin-right: 11px;
+}
+.OrderList .line-green, .OrderListActive .line-green{
+    background: #01BC8D;
+}
+.OrderList .line-red, .OrderListActive .line-red{
+    background: #F66754;
+}
+
+/* li2 */
+
+.OrderList .data{
+    min-width: 74px;
+    color: #f3f3f3;
+}
+.OrderList .data li:nth-child(2) span{
+    color: rgba(243, 243, 243, 0.4);
+}
+
+/* li3 */
+
+.OrderList .input{
+    min-width: 79px;
+    max-width: 79px;
+    max-height: 54px;
+    min-height: 54px;
+    font-size: 13px;
+}
+.OrderList .input button{
+    width: 100%;
+    height: 25px;
+    background: rgba(1, 188, 141, 0.15);
+    border: 1px solid #01bc8d;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 13px;
+    color: #01bc8d;
+}
+
+
+
+
+
+.OrderListActive{
+    width: 100%;
+    height: 154px;
+    padding: 18px 18px 15px 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+.OrderListActive .BTCUSDTdata{
+    width: 100%;
+    height: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.OrderListActive .BTCUSDTdata .currency{
+    width: 120px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.OrderListActive .BTCUSDTdata .currency .line{
+    margin: 0px;
+    
+}
+.OrderListActive .BTCUSDTdata .currency h2{
+    font-size: 13px;
+    color: #f3f3f3;
+}
+
+.OrderListActive .BTCUSDTdata .currency .progression{
+    width: 32px;
+    height: 100%;
+    background: rgba(1, 188, 141, 0.15);
+    border: 1px solid #01bc8d;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 130%;
+    text-align: center;
+    color: #01bc8d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.OrderListActive .BTCUSDTdata .text{
+    width: 96px;
+    height: 17px;
+    font-weight: 600;
+    font-size: 13px;
+    color: #01bc8d;
+}
+.OrderListActive .BTCUSDTdata .text svg{
+    margin-left: 9px;
+}
+
+
+.OrderListActive .otherData{
+    width: 100%;
+    height: 76px;
+    display: flex;
+}
+.OrderListActive .otherData ul{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.OrderListActive .otherData h3{
+    font-size: 13px;
+    color: #f3f3f3;
+}
+.OrderListActive .otherData .pnl{
+    color: #01bc8d;
+}
+
