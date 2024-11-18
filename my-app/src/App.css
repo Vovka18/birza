@@ -26,6 +26,10 @@ Bold - 700
 ExtraBold - 800
 */
 
+button{
+  font-family: "Manrope", serif;
+  font-style: normal;  
+}
 input{
   font-family: "Manrope", serif;
   font-style: normal;

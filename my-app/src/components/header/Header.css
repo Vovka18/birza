@@ -71,3 +71,17 @@
     height: 21px;
     background: rgba(243, 243, 243, 0.08);
 }
+
+
+.header .blocks{
+    min-width: 400px;
+    max-width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    /* background: red; */
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 3;
+}

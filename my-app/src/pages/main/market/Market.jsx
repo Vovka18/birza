@@ -65,7 +65,7 @@ const Market = ({stateActive, setStateActive}) => {
     ]
 
   return (
-    <div className={stateActive ? 'Market MarketActive' : 'Market'}>
+    <div className={stateActive == true ? 'Market MarketActive' : 'Market'}>
         <div className="headline">
             <h3>Рынки</h3>
             <MarketClose onClick={()=>setStateActive(false)}/>
